@@ -10,6 +10,21 @@ body{
 .font-primary{
     color: aqua;
 }
+
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: black !important;
+    margin-left: 0px;
+}
 /**************
 
 About
@@ -56,4 +71,27 @@ About
 
 #about .icon a{
     color: black;
+}
+
+/******************
+
+Projects
+
+*******************/
+
+#projects{
+    margin:60px auto
+    width 80%;
+}
+
+#projects h2{
+    text-align: center;
+}
+
+#projects .card img{
+    width: 80%;     
+}
+
+#projects .card-title{
+    font-weight: bold;
 }
