@@ -3,12 +3,18 @@
 COMMON
 
 ********/
-
+nav{
+    background-color: rgb(168, 179, 179);
+    border-color: #000;
+    border:1px solid #000;
+}
 body{
     font-family:monospace, sans-serif;
 }
 .font-primary{
-    color: aqua;
+    color: blue;
+    font-weight: bold;
+    max-width: 100%;
 }
 
 p{
@@ -17,60 +23,118 @@ p{
 
 h2{
     font-weight: bold;
-    font-size: 23px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+    padding-top: 15px;
 }
-
+a.navbar-brand{
+    font-weight: bold;
+    color: #fdfefe;
+}
 a.font-black{
     color: black !important;
     margin-left: 0px;
+    font-weight: bold;
 }
 /**************
 
 About
 
 ***********/
-
-#about{
-    margin: 60px auto;
-    max-width: 400px;
+.background{
+    background-color:  rgb(220, 211, 211);
+    border:1px solid #000;
+}
+.about0{
     text-align: center;
+    
 }
-
-#about img{
-    border-radius: 50%;
-    width: 120px;
-    margin-bottom: 10px;
-}
-
-#about .name{
-    font-size: 19px;
-}
-
-#about .vocation{  
-    font-size: 17px;
-    color: #A8A8AB;
-    margin-bottom: 10px;
-}
-
-#about .skills{
-    font-size: 14px;
-    color: #00ABAE;
-    margin-bottom: 10px;
-}
-
-#about .email{
-    margin-top: 14px;
-    font-size: 17px;
-}
-
-#about .icon{
-    margin-top: 20px;
+.about0 h2{
+    background-color: darkgray;
+    padding-bottom: 15px;
     font-size: 30px;
 }
+.about{
+    margin: 60px auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;   
+}
 
-#about .icon a{
+.about img{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:-50px;
+    border-radius: 20%;
+    margin-left: 20px;
+    text-align: left;
+}
+.about1 p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.about1 span{
+    font-weight: bold;
+}
+.about1 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -12px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#aboutme .name{
+    font-size: 25px;
+    text-align:left;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#aboutme .vocation{
+    font-size: medium;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#aboutme1{
+    padding-bottom: 40px;
+}
+#aboutme1 .email{
+    font-size: 18px;
+    text-align:left;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#aboutme1 .icon{
+    margin-top: 0px;
+    font-size: 30px;
+    text-align:left;
+    margin-left: 20px;
+
+}
+
+#aboutme1 .icon a{
     color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /******************
@@ -82,16 +146,38 @@ Projects
 #projects{
     margin:60px auto
     width 80%;
+    background-color: darkgray;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif ;
+    border: 1px solid #000;
 }
 
 #projects h2{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding:0%;
+    color: #000;
+    font-size: 30px;
 }
 
 #projects .card img{
-    width: 80%;     
+    width: 240px;
+    height: 240px;  
+    border-radius: 2%;
+    background-color: rgb(187, 173, 173) ;
+    margin-left: 20px;  
+    margin-right: 20px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
 }
 
 #projects .card-title{
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#projects .card{
+    background-color: rgb(220, 211, 211);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
